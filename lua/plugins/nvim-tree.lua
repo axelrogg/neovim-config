@@ -25,6 +25,11 @@ return {
         end
         require("nvim-tree").setup {
             on_attach = custom_attach,
+            git = {
+                enable = true,
+                ignore = false,
+                timeout = 500,
+            }
         }
         vim.keymap.set("n", "<C-k>", ":NvimTreeToggle<Return>")
     end
