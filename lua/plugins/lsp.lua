@@ -17,6 +17,7 @@ return {
                     "pyright",
                     "tsserver",
                     "pyright",
+                    "gopls",
                 },
             })
         end
@@ -63,6 +64,9 @@ return {
                 capabilities = capabilities,
             })
             lspconfig.docker_compose_language_service.setup({
+                capabilities = capabilities,
+            })
+            lspconfig.gopls.setup({
                 capabilities = capabilities,
             })
             --
