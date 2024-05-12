@@ -17,7 +17,6 @@ return {
                     "pyright",
                     "tsserver",
                     "pyright",
-                    "gopls",
                 },
             })
         end
