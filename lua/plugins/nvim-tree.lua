@@ -29,6 +29,9 @@ return {
                 enable = true,
                 ignore = false,
                 timeout = 500,
+            },
+            view = {
+                side = "right",
             }
         }
         vim.keymap.set("n", "<C-k>", ":NvimTreeToggle<Return>")
