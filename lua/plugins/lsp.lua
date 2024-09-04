@@ -15,8 +15,7 @@ return {
                     "clangd",
                     "lua_ls",
                     "pyright",
-                    "tsserver",
-                    "pyright",
+                    "vtsls",
                 },
             })
         end
