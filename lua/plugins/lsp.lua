@@ -52,7 +52,7 @@ return {
             lspconfig.pyright.setup {
                 capabilities = capabilities,
             }
-            lspconfig.tsserver.setup({
+            lspconfig.vtsls.setup({
                 capabilities = capabilities,
             })
             lspconfig.clangd.setup({
