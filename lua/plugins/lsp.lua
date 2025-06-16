@@ -16,6 +16,7 @@ return {
                     "lua_ls",
                     "pyright",
                     "vtsls",
+                    "astro"
                 },
             })
         end
@@ -58,13 +59,7 @@ return {
             lspconfig.clangd.setup({
                 capabilities = capabilities,
             })
-            lspconfig.dockerls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.docker_compose_language_service.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.gopls.setup({
+            lspconfig.astro.setup({
                 capabilities = capabilities,
             })
             --
