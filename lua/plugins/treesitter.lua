@@ -10,6 +10,18 @@ return {
             "c",
             "lua",
             "python",
+            "html",
+            "javascript",
+            "css",
+        })
+
+        nts.setup({
+            highlight = {
+                enable = true,
+            },
+            indent = {
+                enable = true,
+            }
         })
 
         vim.api.nvim_create_autocmd("FileType", {
