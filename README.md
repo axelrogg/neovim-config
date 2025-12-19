@@ -1,8 +1,6 @@
-# My neovim setup
+# My neovim config
 
-This is a very minimalistic setup for neovim. It's not meant to turn neovim into
-an IDE or a very ugly vscode clone. It just has some basic stuff to make my
-neovim experience smooth. I love neovim and its simplicity, so I wanted to keep
-it simple.
+-   install tree-sitter-cli (through cargo)
+    -   cargo install --locked tree-sitter-cli
 
-## The basics
+-   install pyright, @astro/language-server, typescript, ripgrep
