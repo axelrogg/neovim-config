@@ -40,7 +40,13 @@ vim.opt.whichwrap:append("<,>,[,],h,l")         -- keys allowed to move to the p
 vim.opt.iskeyword:append("-")                   -- treats words with `-` as single words
 vim.g.mapleader = " "
 --
---
+
+-- folding configs
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldcolumn = "1"
+vim.opt.foldlevel = 99
+vim.opt.foldenable = true
 
 vim.diagnostic.config({
     virtual_lines = {
